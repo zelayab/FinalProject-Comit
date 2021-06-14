@@ -1,0 +1,86 @@
+body{
+    background-image: url('https://i.pinimg.com/originals/5b/99/4b/5b994b112cb94dd9b36cc8801b640906.jpg') !important;
+    background-size: cover !important;
+}
+h1 {
+    color: #fff;
+    text-align: center !important;
+}
+
+navbar{
+    background-color: #092365;
+    text-align: center !important;
+}
+.nav-title{
+    font-size: 20px !important;
+    padding: 10px;
+}
+.navbar{
+    display: block !important;
+}
+
+video{
+    width: 100%;
+    opacity: 0.6; 
+}
+
+.container{
+    background-image: url('https://i.pinimg.com/736x/56/58/98/565898d246ae1f4517e9bae9e07cbd18.jpg') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+}
+.container-bdr{
+    border:10px solid #092365;
+    border-radius: 30px;
+    margin-top:10px;
+    margin-bottom:10px;  
+}
+a{
+    border: 2px solid #092365 !important;
+    margin-left: 10px !important;
+    color:black !important;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+p{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+a{
+    border:3px solid #4c6bbb !important;
+    border-radius: 30px !important;
+    color:white !important;
+    background-color: #192f66 !important;
+    text-align: center !important;
+}
+
+.nav-title{
+    text-decoration:none;
+}
+
+label{
+    color:white;
+    font-weight:bold;
+}
+
+.selected{
+    border:3px solid #4c6bbb !important;
+    border-radius: 30px !important;
+    color:white !important;
+    background-color: #192f66 !important;
+    text-align: center !important;
+    
+}
+.selected:hover{
+    background-color: #334b86 !important;
+}
+
+#btn_submit{
+    border-radius: 30px;
+    
+
+}
