@@ -4,12 +4,17 @@
 
 > Final Project for ComIT course / Proyecto Final para Curso ComIT
 
+## Sample Demo
+```sh
+    playspotify.netlify.app1
+```
+
 ## Resume
 * Usamos la api de spotify para ver playlist, elegimos una, y podemos escuchar la preview de 30 segundos de spotify del tema que elijamos
 * We use spotify api to search playlist and choose one track to listen the preview of 30 sec.
 
 * Aqui seleccionamos el genero 
-```
+```sh
     <div class="col-sm-12 form-group row mt-4 px-5">
             <p>Select Music Genre:</p>
             <select
@@ -22,7 +27,7 @@
     </div>
 ```
 * Aqui seleccionamos la playlist 
-```
+```sh
     <div class="col-sm-12 form-group row mt-4 px-5 mb-4">
             <p>Select Playlist:</p>
             <select
@@ -36,7 +41,7 @@
 ```
 
 * Aqui saldra la playlist cargada con la lista de canción dadas por el limite ( se puso como limite 10 canciones)
-```
+```sh
  <div class="col-sm-4 px-0 mb-3">
           <div class="list-group song-list">
             <a
@@ -51,7 +56,7 @@
           </div>
 ```
 * Cuando seleccionamos una canción saldra el Covert Art, el titulo y su respectivo interprete.
-```
+```sh
  <div class="row col-sm-10 px-0">
             <p>Example Cover</p>
             <img
