@@ -6,7 +6,7 @@
 
 ## Sample Demo
 
- Visit Link [Web Demo](playspotify.netlify.app1)
+ Visit Link [Web Demo](https://playspotify.netlify.app1 "Play Spotify")
 
 
 ## Resume
@@ -72,13 +72,12 @@
           </div>
 ```
 
-## Framework use
+## Framework/Help
 * BootStrap 5.0 - https://getbootstrap.com/
 * Spotify Api - https://developer.spotify.com/documentation/web-api/
 
 
 ## Usage
-
 ```sh
 use Live Server to test / usar Live Server para probar
 ```
