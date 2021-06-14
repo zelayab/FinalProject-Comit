@@ -6,7 +6,7 @@
 
 ## Sample Demo
 
- Visit Link [Web Demo](https://playspotify.netlify.app1 "Play Spotify")
+ Visit Link [Web Demo](https://playspotify.netlify.app "Play Spotify")
 
 
 ## Resume
