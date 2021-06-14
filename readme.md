@@ -5,9 +5,9 @@
 > Final Project for ComIT course / Proyecto Final para Curso ComIT
 
 ## Sample Demo
-```sh
-    playspotify.netlify.app1
-```
+
+    * [Página Web](playspotify.netlify.app1)
+
 
 ## Resume
 * Usamos la api de spotify para ver playlist, elegimos una, y podemos escuchar la preview de 30 segundos de spotify del tema que elijamos
