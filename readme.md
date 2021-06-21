@@ -19,7 +19,7 @@
             <p>Select Music Genre:</p>
             <select
               name=""
-              id="select_genre"
+              id="sel_genre"
               class="form-control form-control-sm col-sm-10 selected"
             >
               <option>Select Genre</option>
@@ -32,7 +32,7 @@
             <p>Select Playlist:</p>
             <select
               name=""
-              id="select_playlist"
+              id="sel_playlist"
               class="form-control form-control-sm col-sm-10 selected"
             >
               <option>Select Playlist</option>
@@ -40,7 +40,7 @@
     </div>
 ```
 
-* Aqui saldra la playlist cargada con la lista de canción dadas por el limite ( se puso como limite 10 canciones)
+* Aqui saldra la playlist cargada con la lista de canción dadas por el limite ( se puso como limite 12 canciones)
 ```sh
  <div class="col-sm-4 px-0 mb-3">
           <div class="list-group song-list">
@@ -72,7 +72,7 @@
           </div>
 ```
 
-## Framework/Help
+## Framework/Helpers/Documentattion
 * BootStrap 5.0 - https://getbootstrap.com/
 * Spotify Api - https://developer.spotify.com/documentation/web-api/
 

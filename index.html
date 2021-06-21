@@ -25,67 +25,78 @@
       >
     </nav>
     <div class="container container-bdr">
-      <form action="">
-        <input type="hidden" id="hidden_token" />
-        <div class="container-div">
-          <div class="col-sm-12 form-group row mt-4 px-5">
-            <p>Select Music Genre:</p>
-            <select
-              name=""
-              id="select_genre"
-              class="form-control form-control-sm col-sm-10 selected"
-            >
-              <option>Select Genre</option>
-            </select>
-          </div>
-          <div class="col-sm-12 form-group row mt-4 px-5 mb-4">
-            <p>Select Playlist:</p>
-            <select
-              name=""
-              id="select_playlist"
-              class="form-control form-control-sm col-sm-10 selected"
-            >
-              <option>Select Playlist</option>
-            </select>
-          </div>
-          <div class="col-sm-12 text-center form-group px-0 mb-3">
-            <button
-              type="submit"
-              id="btn_submit"
-              class="btn btn-success col-sm-12"
-            >
-              Search Now!
-            </button>
+      <div class="col-sm-12 row">
+        <div class="col-sm-4">
+          <form action="">
+            <input type="hidden" id="hidden_token" />
+            <div class="container-div">
+              <div class="col-sm-12 form-group row mt-4 px-5">
+                <p>Select Music Genre:</p>
+                <select
+                  name=""
+                  id="sel_genre"
+                  class="form-select form-select-sm col-sm-10 fs-6 selected"
+                >
+                  <option>Select Genre</option>
+                </select>
+              </div>
+              <div class="col-sm-12 form-group row mt-4 px-5 mb-4">
+                <p>Select Playlist:</p>
+                <select
+                  name=""
+                  id="sel_playlist"
+                  class="form-select form-select-sm col-sm-10 fs-6 selected"
+                >
+                  <option>Select Playlist</option>
+                </select>
+              </div>
+              <div class="col-sm-12 text-center form-group px-0 mb-3">
+                <button
+                  type="submit"
+                  id="btn_submit"
+                  class="btn btn-success col-sm-12"
+                >
+                  Search Now!
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-sm-4">
+          <div class="col-sm-12 px-0 mb-3">
+            <div class="list-group song-list">
+              <a
+                href="#"
+                class="
+                  list-group-item list-group-item-action list-group-item-light
+                  song
+                  mb-3
+                  mt-5
+                "
+                >Song 1</a
+              >
+            </div>
           </div>
         </div>
-      </form>
-      <div class="row">
-        <div class="col-sm-4 px-0 mb-3">
-          <div class="list-group song-list">
-            <a
-              href="#"
-              class="
-                list-group-item list-group-item-action list-group-item-light
-                song
-                mb-3
-              "
-              >Song 1</a
-            >
-          </div>
-        </div>
-        <div class="offset-md-1 col-sm-3" id="song-detail">
-          <div class="row col-sm-10 px-0">
-            <p>Example Cover</p>
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMIGu9GBU40Nu6R1QDttqquP9ypRpLTs8rJg&usqp=CAU"
-              alt=""
-            />
-          </div>
-          <div class="row col-sm-12 px-0">
-            <label for="Genre" class="form-label col-sm-12">Song Title</label>
-          </div>
-          <div class="row col-sm-12 px-0">
-            <label for="artist" class="form-label col-sm-12"> By</label>
+        <div class="col-sm-4">
+          <div class="row">
+            <div class="offset-md-1 col-sm-12" id="song-detail">
+              <div class="row col-sm-10 px-0">
+                <p>Example Cover</p>
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMIGu9GBU40Nu6R1QDttqquP9ypRpLTs8rJg&usqp=CAU"
+                  alt=""
+                />
+              </div>
+              <div class="row col-sm-12 px-0">
+                <label for="Genre" class="form-label col-sm-12"
+                  >Song Title</label
+                >
+              </div>
+              <div class="row col-sm-12 px-0">
+                <label for="artist" class="form-label col-sm-12"> By</label>
+              </div>
+            </div>
           </div>
         </div>
       </div>

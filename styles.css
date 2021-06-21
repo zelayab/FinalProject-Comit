@@ -1,5 +1,5 @@
 body{
-    background-image: url('https://i.pinimg.com/originals/5b/99/4b/5b994b112cb94dd9b36cc8801b640906.jpg') !important;
+    background-image: url('https://images.pexels.com/photos/351265/pexels-photo-351265.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') !important;
     background-size: cover !important;
 }
 h1 {
@@ -25,12 +25,13 @@ video{
 }
 
 .container{
-    background-image: url('https://i.pinimg.com/736x/56/58/98/565898d246ae1f4517e9bae9e07cbd18.jpg') !important;
+    background-color: #0A2E36 !important;
     background-size: cover !important;
     background-repeat: no-repeat;
 }
 .container-bdr{
-    border:10px solid #092365;
+    border:4px solid #14CC60;
+    opacity: 0.9;
     border-radius: 30px;
     margin-top:10px;
     margin-bottom:10px;  
@@ -68,15 +69,15 @@ label{
 }
 
 .selected{
-    border:3px solid #4c6bbb !important;
+    border:3px solid #27FB6B !important;
     border-radius: 30px !important;
     color:white !important;
-    background-color: #192f66 !important;
+    background-color: #036D19 !important;
     text-align: center !important;
     
 }
 .selected:hover{
-    background-color: #334b86 !important;
+    background-color: #09A129 !important;
 }
 
 #btn_submit{

@@ -45,7 +45,7 @@ const APIController = (function() {
 
     const _getTracks = async (token, tracksEndPoint) => {
 
-        const limit = 10;
+        const limit = 12;
 
         const result = await fetch(`${tracksEndPoint}?limit=${limit}`, {
             method: 'GET',
@@ -92,8 +92,8 @@ const UIController = (function() {
 
     //object to hold references to html selectors
     const DOMElements = {
-        selectGenre: '#select_genre',
-        selectPlaylist: '#select_playlist',
+        selectGenre: '#sel_genre',
+        selectPlaylist: '#sel_playlist',
         buttonSubmit: '#btn_submit',
         divSongDetail: '#song-detail',
         hfToken: '#hidden_token',
@@ -127,31 +127,37 @@ const UIController = (function() {
 
         // need method to create a track list group item 
         createTrack(id, name) {
-            const html = `<a href="#" class="list-group-item list-group-item-action list-group-item-light" id="${id}">${name}</a>`;
+            const html = `<a href="#" class="list-group-item mt-2 list-group-item-action list-group-item-light" id="${id}">${name}</a>`;
             document.querySelector(DOMElements.divSonglist).insertAdjacentHTML('beforeend', html);
         },
 
         // need method to create the song detail
-        createTrackDetail(img, title, artist,preview_url) {
+        createTrackDetail(img, title, artist,preview_url,id,track) {
 
             const detailDiv = document.querySelector(DOMElements.divSongDetail);
             // any time user clicks a new song, we need to clear out the song detail div
+            /* console.log(id); */
             detailDiv.innerHTML = '';
 
             const html = 
             `
-            <div class="row col-sm-12 px-0">
+            <div class="row col-sm-12 px-0 mt-3">
                 <img src="${img}" alt="">        
             </div>
             <div class="row col-sm-12 px-0">
                 <label for="Genre" class="form-label col-sm-12">${title}:</label>
             </div>
-            <div class="row col-sm-12 px-0">
+            ${preview_url 
+                ? `<div class="row col-sm-12 px-0">
                 <label for="artist" class="form-label col-sm-12">By ${artist}:</label>
                 <video controls=""  autoplay="" name="media" class="preview">
-                <source src="${preview_url} " type="audio/mpeg">
-                </video>
-            </div> 
+                <source src="${preview_url}" type="audio/mpeg">
+                </video></div>`
+                
+                : `<div class="row col-sm-12 px-0">
+                <h1> Preview Not Found </h1>
+                <p> Please, select a new song.</p>   
+                </div>`} 
             `;
 
             detailDiv.insertAdjacentHTML('beforeend', html)
@@ -233,7 +239,7 @@ const APPController = (function(UICtrl, APICtrl) {
         const tracksEndPoint = playlistSelect.options[playlistSelect.selectedIndex].value;
         // get the list of tracks
         const tracks = await APICtrl.getTracks(token, tracksEndPoint);
-        console.log(tracks)
+        /* console.log(tracks) */
         // create a track list item
         tracks.forEach(el => UICtrl.createTrack(el.track.href, el.track.name));
         
@@ -251,8 +257,8 @@ const APPController = (function(UICtrl, APICtrl) {
         //get the track object
         const track = await APICtrl.getTrack(token, trackEndpoint);
         // load the track details
-        console.log(track.external_urls.spotify)
-        console.log(track.preview_url)
+        /* console.log(track.external_urls.spotify)
+        console.log(track.preview_url) */
         UICtrl.createTrackDetail(track.album.images[1].url, track.name, track.artists[0].name, track.preview_url);
     });    
 
