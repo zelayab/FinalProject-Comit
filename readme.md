@@ -72,7 +72,7 @@
           </div>
 ```
 
-## Framework/Helpers/Documentattion
+## Framework/Helpers/Documentation
 * BootStrap 5.0 - https://getbootstrap.com/
 * Spotify Api - https://developer.spotify.com/documentation/web-api/
 
