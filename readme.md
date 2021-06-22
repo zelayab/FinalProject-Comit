@@ -21,7 +21,7 @@
             <p>Select Playlist:</p>
 ```
 
-* Aqui saldra la playlist cargada con la lista de canción dadas por el limite ( se puso como limite 12 canciones) golpeando en un etiqueta a / In this <a href> the playlist will be load with the limit of songs (12 songs)
+* Aqui saldra la playlist cargada con la lista de canción dadas por el limite ( se puso como limite 12 canciones) golpeando en un etiqueta a / In this (a href) the playlist will be load with the limit of songs (12 songs)
 ```sh
             <a
               href="#"
