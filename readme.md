@@ -17,8 +17,10 @@
 
 ![alt text](https://github.com/zelayab/FinalProject-Comit/blob/main/img/select-genre.png)
 
- **ES** * Aqui seleccionamos la playlist también con otro Select
- **EN** * *Here Select the playlist*
+
+ **ES** * Aqui seleccionamos la playlist también con otro Select basados en el Genero
+ 
+ **EN** * *Here we Select the playlist based on the Genre*
 
 ![alt text](https://github.com/zelayab/FinalProject-Comit/blob/main/img/select-playlist.png)
 
