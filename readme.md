@@ -13,15 +13,19 @@
 
 
 * Aqui seleccionamos el genero musical con el Select / Here we select the Genre
+* 
 ![alt text](https://github.com/zelayab/FinalProject-Comit/blob/main/img/select-genre.png)
 
 * Aqui seleccionamos la playlist también con otro Select
+* 
 ![alt text](https://github.com/zelayab/FinalProject-Comit/blob/main/img/select-playlist.png)
 
 * Aqui saldra la playlist cargada con la lista de canción dadas por el limite ( se puso como limite 12 canciones) golpeando en un etiqueta a / In this (a href) the playlist will be load with the limit of songs (12 songs)
+*
 ![alt text](https://github.com/zelayab/FinalProject-Comit/blob/main/img/playlist.png)
 
 * Cuando seleccionamos una canción saldra el Covert Art, el titulo y su respectivo interprete. / When we select a song, will be load the CoverArt, Title and Interpreter.
+* 
 ![alt text](https://github.com/zelayab/FinalProject-Comit/blob/main/img/Cover.png)
 
 ## Framework/Helpers/Documentattion
